@@ -1,0 +1,35 @@
+@import "compass/css3";
+a {
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+}
+button {
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	padding: 5px;
+}
+.container {
+	position: relative;
+	margin-top: 20px;
+	border: 1px solid #000;
+	height: 550px;
+	background-color: linen;
+}
+header {
+	text-align: center;
+}
+.window {
+    position: absolute;
+    cursor: move;
+    border: 4px solid #000;
+    padding: 10px;
+	background-color: orange;
+	color: pink;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 20px;
+}
