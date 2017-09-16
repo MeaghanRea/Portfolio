@@ -96,3 +96,26 @@
          -o-transform-origin: 100% 100%;
             transform-origin: 100% 100%;
 }
+#rainbow {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#rainbow-red {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 500px;
+    background-color: red;
+}
+#rainbow-orange {
+    width: 900px;
+    height: 900px;
+    border-radius: 450px;
+    background-color: orange;
+}
+#rainbow-yellow {
+    width: 800px;
+    height: 800px;
+    border-radius: 400px;
+    background-color: yellow;
+}
