@@ -1,10 +1,3 @@
-.container {
-	max-width:1200px;
-    margin: auto;
-    min-height: 400px;
-    max-height: 600px;
-    border: 3px solid #73ad21;
-}
 #heart1 {
     position: relative;
     width: 100px;
