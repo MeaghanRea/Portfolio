@@ -24,6 +24,7 @@ a {
     width: 100px;
     height: 90px;
     left: 0%;
+    margin: -10px;
 }
 #heart1:before,
 #heart1:after {
@@ -65,6 +66,8 @@ a {
     width: 100px;
     height: 90px;
     left: 15%;
+    margin: -10px;
+    margin-top: 5px;
 }
 #heart2:before,
 #heart2:after {
@@ -106,6 +109,7 @@ a {
     width: 100px;
     height: 90px;
     left: 30%;
+    margin: -10px;
 }
 #heart3:before,
 #heart3:after {
@@ -147,6 +151,7 @@ a {
     width: 100px;
     height: 90px;
     left: 45%;
+    margin: -10px;
 }
 #heart4:before,
 #heart4:after {
@@ -188,6 +193,7 @@ a {
     width: 100px;
     height: 90px;
     left: 60%;
+    margin: -10px;
 }
 #heart5:before,
 #heart5:after {
@@ -229,6 +235,7 @@ a {
     width: 100px;
     height: 90px;
     left: 75%;
+    margin: -10px;
 }
 #heart6:before,
 #heart6:after {
@@ -270,6 +277,7 @@ a {
     width: 100px;
     height: 90px;
     left: 90%;
+    margin: -10px;
 }
 #heart7:before,
 #heart7:after {
