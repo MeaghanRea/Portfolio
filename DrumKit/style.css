@@ -4,8 +4,6 @@ html {
   background-size: cover;
 }
 body,html {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
 }
 .keys {
@@ -36,6 +34,13 @@ body,html {
 kbd {
 	display: block;
 	font-size: 40px;
+}
+p {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 40px;
+	color: #ffc600;
+	margin-top: 50px;
 }
 .sound {
 	font-size: 1.2rem;
