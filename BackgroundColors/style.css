@@ -1,6 +1,40 @@
+/* universal */
+a {
+	text-decoration: none;
+}
 body {
 	margin: 0;
 	margin-top: 5em;
+	font-family: 'Acme', sans-serif;
+}
+
+/* specific */
+.button {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left:auto;
+    margin-right:auto;
+}
+#two-buttons {
+    text-align: center;
+}
+
+#row-red a {
+	color: red;
+}
+#row-blue a {
+	color: blue;
+}
+#row-green a {
+	color: green;
 }
 .rows {
 	display: flex;

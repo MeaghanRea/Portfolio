@@ -17,4 +17,12 @@ $(document).ready(function(){
     $("#row-green").mouseout(function(){
         $(this).css("background", "white");
     });
+    $(".button").mouseover(function(){
+    	$(this).css("background", "black");
+    	$(this).css("color", "white");
+	});
+	$(".button").mouseout(function(){
+		$(this).css("background", "white");
+		$(this).css("color", "black");
+	});
 });
