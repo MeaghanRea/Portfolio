@@ -1,0 +1,46 @@
+#page {
+	border: 20px solid lightgrey;
+	display: inline-block;
+}
+header {
+	display: inline-block;
+	display: flex;
+}
+#content {
+	display: flex;
+}
+#header-left {
+	background-color: salmon;
+	width: 200px;
+	height: 100px;
+}
+#header-right {
+	background-color: lightgreen;
+	width: 755px;
+	height: 100px;
+}
+#content-left {
+	background-color: skyblue;
+	width: 200px;
+	min-height: 30px;
+	display: inline-block;
+	align-self: stretch;
+	height: 100vh;
+}
+#content-breadcrumb {
+	background-color: gold;
+	width: 755px;
+	height: 30px;
+	float: right;
+}
+#content-details {
+	background-color: pink;
+	width: 755px;
+	align-self: stretch;
+	height: 100vh;
+}
+footer {
+	background-color: grey;
+	width: 955px;
+	height: 150px
+}
