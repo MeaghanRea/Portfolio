@@ -9,7 +9,7 @@ body {
 }
 
 /* specific */
-.button {
+.btn {
     background-color: white;
     border: none;
     border-radius: 8px;
@@ -25,6 +25,9 @@ body {
 }
 #two-buttons {
     text-align: center;
+}
+.fb-share-button {
+    
 }
 
 #row-red a {
