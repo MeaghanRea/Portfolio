@@ -1,26 +1,12 @@
-// $(document).ready(() => {
-// 	$('.btn-hide').on('click', () => {
-// 		$('.astronaut').hide();
-// 	});
-// });
-
 $(document).ready(() => {
-  $('.btn-hide').on('click', () => {
-    $('.astronaut').hide();
-});
-
-
-// $(document).ready(() => {
-//   $('.hide-button').on('click', () => {
-//     $('.first-image').hide();
-//   });
-  
-//   $('.show-button').on('click', () => {
-//     $('.first-image').show();
-//   });
-  
-//   $('.toggle-button').on('click', () => {
-//     $('.first-image').toggle();
-//   });
-  
+	$('.btn-hide').on('click', () => {
+		$('.astronaut').fadeOut('slow', function() {
+		});
+	});
+	$('.btn-show').on('click', () => {
+		$('.astronaut').show();
+	});
+	$('.btn-toggle').on('click', () => {
+		$('.astronaut').toggle();
+	});
 });
