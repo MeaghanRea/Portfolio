@@ -23,6 +23,9 @@ body {
     margin-left:auto;
     margin-right:auto;
 }
+.btn-fb-share iframe {
+    text-align: center;
+}
 #two-buttons {
     text-align: center;
 }
