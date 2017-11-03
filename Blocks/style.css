@@ -1,6 +1,24 @@
+
 #page {
 	border: 20px solid lightgrey;
 	display: inline-block;
+	text-align: center;
+}
+#two-buttons {
+    text-align: center;
+}
+.button {
+    background-color: grey;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 header {
 	display: inline-block;
