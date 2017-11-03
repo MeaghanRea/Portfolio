@@ -22,10 +22,6 @@ body {
 	border: 3px solid pink;
 	margin: auto;
 }
-#page-wrap {
-	
-	
-}
 .row-of-triangles {
 	display: flex;
 	flex-direction: row;
