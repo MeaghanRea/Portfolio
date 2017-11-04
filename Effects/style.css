@@ -23,7 +23,22 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+.btn {
+	margin-bottom: 10px;
+}
 .btn-fb-share {
 	margin-right: auto;
 	margin-left: auto;
+}
+.line {
+	width: 100px;
+	height: 2px;
+	border-radius: 20px;
+	background-color: purple;
+	margin-left: auto;
+	margin-right: auto;
+}
+section {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
