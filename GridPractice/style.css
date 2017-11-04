@@ -3,10 +3,11 @@ html {
 }
 .container {
 	display: grid;
-	grid-template-columns: 500px 500px;
-	grid-template-rows: 100px 200px 200px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 100px repeat(2, 200px) 100px;
 	margin: 2rem auto;
-	width: 1000px;
+	max-width: 1000px;
+	width: 90%;
 	grid-gap: 15px 40px;
 	text-align: center;
 }
