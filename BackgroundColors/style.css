@@ -23,16 +23,17 @@ body {
     margin-left:auto;
     margin-right:auto;
 }
-.btn-fb-share iframe {
-    text-align: center;
-}
 #two-buttons {
     text-align: center;
 }
-.fb-share-button {
-    
+.btn-linkedin-share img {
+    width: 50%;
 }
-
+.btn-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #row-red a {
 	color: red;
 }
