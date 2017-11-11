@@ -2,12 +2,41 @@ html {
 	background: url(images/the_street_forest.jpg);
 	background-size: cover;
 }
+.btn {
+	font-family: 'Lily Script One', cursive;
+	font-size: 15px;
+	background-color: green;
+	opacity: 0.3;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left:auto;
+    margin-right:auto;
+}
+#two-buttons {
+    text-align: center;
+}
+.btn-linkedin-share img {
+    width: 50%;
+}
+.btn-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .clock {
 	width: 300px;
 	height: 300px;
-	border: 20px solid green;opacity:0.3;
+	border: 20px solid green;
+	opacity: 0.3;
 	border-radius: 50%;
-	margin: 50px auto;
+	margin: 50px auto 10px;
 	position: relative;
 	padding: 20px;
 	box-shadow: 
@@ -37,6 +66,7 @@ p {
 	text-align: center;
 	font-family: 'Lily Script One', cursive;
 	font-size: 40px;
-	color: green;opacity: 0.6;
+	color: green;
+	opacity: 0.6;
     text-shadow: 2px 2px 4px #000000;
 }
