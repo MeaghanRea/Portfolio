@@ -40,3 +40,40 @@ img {
     a {
       color: #ffc600;
     }
+
+#two-buttons {
+    text-align: center;
+}
+.button {
+    background-color: purple;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.button,
+.btn button {
+  font-family: 'helvetica neue', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.btn {
+  margin-bottom: 10px;
+}
+.btn-linkedin-share img {
+  width: 50%;
+  filter: unset;
+  padding: 0px;
+  background: unset;
+}
+.btn-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
