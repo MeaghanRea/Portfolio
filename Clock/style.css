@@ -36,7 +36,7 @@ html {
 	border: 20px solid green;
 	opacity: 0.3;
 	border-radius: 50%;
-	margin: 50px auto 10px;
+	margin: 20px auto;
 	position: relative;
 	padding: 20px;
 	box-shadow: 
@@ -69,4 +69,14 @@ p {
 	color: green;
 	opacity: 0.6;
     text-shadow: 2px 2px 4px #000000;
+    margin: .5em auto;
+}
+.js-project {
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.25em;
+	color: black;
+	text-shadow: none;
+}
+.js-project a {
+	color: green;
 }
