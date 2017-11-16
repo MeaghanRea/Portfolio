@@ -4,11 +4,37 @@ html {
   background-size: cover;
 }
 body,html {
-  font-family: sans-serif;
+	font-family: 'Playfair Display', serif;
+}
+.btn {
+	font-size: 15px;
+	background-color: #ffc600;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left:auto;
+    margin-right:auto;
+}
+#two-buttons {
+    text-align: center;
+}
+.btn-linkedin-share img {
+    width: 50%;
+}
+.btn-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .keys {
-  display: flex;
-  flex: 1;
+	display: flex;
+	flex: 1;
 	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
@@ -36,11 +62,11 @@ kbd {
 	font-size: 40px;
 }
 p {
-	font-family: 'Playfair Display', serif;
 	text-align: center;
-	font-size: 40px;
+	font-size: 20px;
 	color: #ffc600;
-	margin-top: 50px;
+	
+	margin-bottom: 50px;
 }
 .sound {
 	font-size: 1.2rem;
