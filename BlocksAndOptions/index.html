@@ -8,9 +8,9 @@
 	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 	crossorigin="anonymous"></script> -->
 
-	<script type="text/javascript" src="script.js"></script>
-
 	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 
@@ -54,19 +54,16 @@
 			<div class="dropdown">
 				<div onclick="myFunction()" class="button btn-color-picker">Change the Color</div>
 					<ul id="myDropdown" class="dropdown-content">
-						<li onclick="changeColor()" class="color blue">blue</li>
-						<li onclick="changeColor()" class="color pink">pink</li>
-						<li onclick="changeColor()" class="color green">green</li>
-						<li onclick="changeColor()" class="color orange">orange</li>
-						<li onclick="changeColor()" class="color purple">purple</li>
-						<li onclick="changeColor()" class="color yellow">yellow</li>
+						<li id="color-blue">blue</li>
+						<li id="color-pink">pink</li>
+						<li id="color-green">green</li>
+						<li id="color-orange">orange</li>
+						<li id="color-purple">purple</li>
+						<li id="color-yellow">yellow</li>
 					</ul>
 			</div>
 
-
-
-
-			<div class="dropdown">
+			<!-- <div class="dropdown">
 				<button onclick="myFunction()" class="dropbtn">Dropdown</button>
 
 				<div id="myDropdown" class="dropdown-content">
@@ -74,7 +71,7 @@
 					<a href="#about">About</a>
 					<a href="#contact">Contact</a>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="color-block"></div>
 
